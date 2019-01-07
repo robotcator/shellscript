@@ -18,4 +18,4 @@ cp mjkey.txt /root/.mujoco/mjkey.txt
 pip install gym[mujoco]
 
 # Test the python packages
-RUN python3 -c "import gym; gym.make('Humanoid-v2')"
+python3 -c "import gym; gym.make('Humanoid-v2')"
