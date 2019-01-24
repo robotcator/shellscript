@@ -10,4 +10,8 @@ if ! dpkg-query -W cuda-9-0; then
   sudo apt-get install cuda-9-0 -y
 fi
 # Enable persistence mode
+
+echo 'export PATH=/usr/local/cuda-9.0/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH' >> .bashrc
+
 nvidia-smi -pm 1
