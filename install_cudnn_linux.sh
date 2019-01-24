@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-CUDNN_TAR_FILE="cudnn-9.0-linux-x64-v7.3.1.20"
+CUDNN_TAR_FILE="cudnn-9.0-linux-x64-v7.3.1.20.tgz"
+#https://developer.download.nvidia.cn/compute/machine-learning/cudnn/secure/v7.3.1/prod/9.0_2018927/cudnn-9.0-linux-x64-v7.3.1.20.tgz
 
 wget https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.3.1/prod/9.0_2018927/${CUDNN_TAR_FILE}
 #tar -xzvf cudnn-9.0-linux-x64-v7.1.tgz
